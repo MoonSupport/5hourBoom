@@ -12,3 +12,4 @@ add
 
 const a = 'hello'
 console.log(a, 'test')
+console.log('허스키 정상작동합니다.')
