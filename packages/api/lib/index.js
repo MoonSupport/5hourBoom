@@ -1,2 +1,2 @@
-module.exports = 'api';
-//# sourceMappingURL=index.js.map
+module.exports = 'api'
+//# sourceMappingURL=index.js.map;
