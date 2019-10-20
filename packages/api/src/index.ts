@@ -11,4 +11,4 @@ function add(a, b) {
 add
 
 const a = 'hello'
-a
+console.log(a, 'test')

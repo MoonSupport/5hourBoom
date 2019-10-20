@@ -1,0 +1,12 @@
+node_modules
+package.json
+package-lock.json
+public
+.github
+
+# Built files
+build
+.next
+lib
+esm
+generated
