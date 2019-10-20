@@ -4,10 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "prepare": "lerna run --stream --sort prepare",
+    "build": "lerna run --stream --sort build"
+  },
   "devDependencies": {
     "lerna": "^3.18.1"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
 }
