@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "scope": "specup",
+  "builds": [
+    {
+      "src": "packages/admin/package.json",
+      "use": "@now/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "^(.*)$",
+      "dest": "packages/admin$1"
+    }
+  ]
+}
