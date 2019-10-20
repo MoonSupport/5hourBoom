@@ -13,6 +13,10 @@
     "lint:fix": "yarn lint --fix"
   },
   "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-plugin-import": "^1.12.2",
     "jest": "^24.9.0",
     "lerna": "^3.18.1",
     "npm-run-all": "^4.1.5"
@@ -38,6 +42,10 @@
   "jest": {
     "projects": [
       "<rootDir>/packages/*"
-    ]
+    ],
+    "verbose": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   }
 }

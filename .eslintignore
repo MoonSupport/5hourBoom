@@ -11,3 +11,5 @@ build
 lib
 esm
 generated
+
+babel.config.js
